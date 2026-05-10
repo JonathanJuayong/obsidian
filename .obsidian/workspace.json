@@ -1,0 +1,301 @@
+{
+  "main": {
+    "id": "30aee8436827e104",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fcb31c888c9af49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16071c3638e04732",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Netcat.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Netcat"
+            }
+          },
+          {
+            "id": "163e7cd5442416a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "nmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "nmap"
+            }
+          },
+          {
+            "id": "b1b39f8517246d58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DNS Manipulation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DNS Manipulation"
+            }
+          },
+          {
+            "id": "655149800c4f1de1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DNS Infiltration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DNS Infiltration"
+            }
+          },
+          {
+            "id": "575cdcb08efb725a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "3a4c6144d0ba6300",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b232b02ce6d1cda5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "059fc8f6d5d48a1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "23c81dad34f2d568",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2c41a0bd3069085",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fd11aa263f6d018d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fb70a492f7da9759",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ef4c336ee5e5c098",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d9660aa31be475a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d823563b9792be85",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Metasploit.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Metasploit"
+            }
+          },
+          {
+            "id": "6844cc5cc3d19748",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Metasploit.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Metasploit"
+            }
+          },
+          {
+            "id": "b0bb8ec310777ae3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e2afeef8ed66313e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "128f6002a55d9dbc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Metasploit.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Metasploit"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "575cdcb08efb725a",
+  "lastOpenFiles": [
+    "DNS Infiltration.md",
+    "Git.md",
+    "DNS Manipulation.md",
+    "TCP Ports in a Web Browser.md",
+    "Port.md",
+    "DNS Exfiltration.md",
+    "DNS.md",
+    "Pasted image 20260510174822.png",
+    "dig.md",
+    "nslookup.md",
+    "DNS Records.md",
+    "DNS Lookup tools.md",
+    "Pasted image 20260510171946.png",
+    "nmap.md",
+    "socat.md",
+    "Netcat.md",
+    "Reverse Shell.md",
+    "Telnet.md",
+    "Active Reconnaissance.md",
+    "Bind Shell.md",
+    "Webshell.md",
+    "Pasted image 20260509001404.png",
+    "msfvenom.md",
+    "Metasploit.md",
+    "Metasp.md",
+    "Shell.md",
+    "Common Shell Payloads.md",
+    "Untitled.md",
+    "Pasted image 20260507093906.png",
+    "Pasted image 20260507093724.png",
+    "Pasted image 20260507092426.png",
+    "Pasted image 20260507091407.png",
+    "Pasted image 20260506095748.png",
+    "Ping.md",
+    "Pasted image 20260505232302.png",
+    "Pasted image 20260504210255.png",
+    "DNS Lookup",
+    "DNS Records",
+    "Untitled.base"
+  ]
+}

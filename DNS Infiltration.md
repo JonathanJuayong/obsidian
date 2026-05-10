@@ -1,0 +1,1 @@
+Unlike [[DNS Exfiltration]], DNS Infiltration is where malicious code is ran to manipulate [[DNS]] servers.
