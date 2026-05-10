@@ -69,16 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git.md",
+                "file": "DNS Records.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "DNS Records"
+            }
+          },
+          {
+            "id": "cd9acf4ea39294af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DNS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DNS"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "3a4c6144d0ba6300",
@@ -256,42 +270,42 @@
       "bases:Create new base": false
     }
   },
-  "active": "575cdcb08efb725a",
+  "active": "cd9acf4ea39294af",
   "lastOpenFiles": [
-    "DNS Infiltration.md",
-    "Git.md",
-    "DNS Manipulation.md",
-    "TCP Ports in a Web Browser.md",
-    "Port.md",
-    "DNS Exfiltration.md",
-    "DNS.md",
-    "Pasted image 20260510174822.png",
-    "dig.md",
-    "nslookup.md",
     "DNS Records.md",
-    "DNS Lookup tools.md",
-    "Pasted image 20260510171946.png",
-    "nmap.md",
-    "socat.md",
-    "Netcat.md",
-    "Reverse Shell.md",
+    "DNS.md",
+    "A.md",
+    "Traceroute.md",
     "Telnet.md",
-    "Active Reconnaissance.md",
-    "Bind Shell.md",
-    "Webshell.md",
-    "Pasted image 20260509001404.png",
+    "dig.md",
+    "DNS Exfiltration.md",
+    "DNS Infiltration.md",
+    "DNS Manipulation.md",
+    "DNS Lookup tools.md",
+    "DNS Tunneling.md",
+    "DNSDumpster.md",
+    "Git.md",
+    "grep.md",
     "msfvenom.md",
     "Metasploit.md",
-    "Metasp.md",
-    "Shell.md",
-    "Common Shell Payloads.md",
-    "Untitled.md",
+    "TXT.md",
+    "TCP Ports in a Web Browser.md",
+    "socat.md",
+    "SOA.md",
+    "Netcat.md",
+    "Port.md",
+    "Pasted image 20260510174822.png",
+    "nslookup.md",
+    "Pasted image 20260510171946.png",
+    "nmap.md",
+    "Reverse Shell.md",
+    "Active Reconnaissance.md",
+    "Pasted image 20260509001404.png",
     "Pasted image 20260507093906.png",
     "Pasted image 20260507093724.png",
     "Pasted image 20260507092426.png",
     "Pasted image 20260507091407.png",
     "Pasted image 20260506095748.png",
-    "Ping.md",
     "Pasted image 20260505232302.png",
     "Pasted image 20260504210255.png",
     "DNS Lookup",

@@ -1,4 +1,7 @@
-The act of manipulating [[DNS]] to[[DNS Exfiltration | exfiltrate]] and[[DNS Infiltration | infiltrate]] data.
+# Types of Techniques:
+- [[DNS Exfiltration]]
+- [[DNS Infiltration]]
+- [[DNS Tunneling]]
 
 
 
