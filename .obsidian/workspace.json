@@ -6,69 +6,69 @@
       {
         "id": "1fcb31c888c9af49",
         "type": "tabs",
+        "dimension": 55.647208121827404,
         "children": [
           {
-            "id": "fba301807b5c0939",
+            "id": "010ad2f4f14c8ac9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Fundamentals.md",
+                "file": "logrotate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows Fundamentals"
+              "title": "logrotate"
             }
           },
           {
-            "id": "8999a3bec4ae5182",
+            "id": "8d3147d3957e4860",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SMB.md",
+                "file": "rsyslog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SMB"
+              "title": "rsyslog"
             }
           },
           {
-            "id": "7a86a7075a93b614",
+            "id": "3d0e03eaf6e5275e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Windows Fundamentals.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Pasted image 20260513184353.png"
               },
-              "icon": "lucide-file",
-              "title": "Windows Fundamentals"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260513184353"
             }
           },
           {
-            "id": "8f0da0599567fb0a",
+            "id": "592c962d3768f6e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git.md",
+                "file": "Log Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git"
+              "title": "Log Analysis"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "3a4c6144d0ba6300",
         "type": "tabs",
+        "dimension": 44.35279187817259,
         "children": [
           {
             "id": "b232b02ce6d1cda5",
@@ -242,31 +242,36 @@
       "bases:Create new base": false
     }
   },
-  "active": "7a86a7075a93b614",
+  "active": "592c962d3768f6e6",
   "lastOpenFiles": [
-    "Samba.md",
-    "SMB.md",
+    "NTP.md",
     "Windows Fundamentals.md",
+    "images/Pasted image 20260513184353.png",
+    "Log Analysis.md",
+    "rsyslog.md",
+    "logrotate.md",
+    "SMB.md",
+    "command prompt.md",
+    "Git.md",
+    "images/Pasted image 20260513202612.png",
+    "images/Pasted image 20260513195706.png",
+    "images/Pasted image 20260513195702.png",
+    "images/Pasted image 20260513194554.png",
+    "images/Pasted image 20260513194430.png",
+    "grep.md",
+    "images/Pasted image 20260513184743.png",
+    "images/Pasted image 20260513184738.png",
+    "Samba.md",
     "images/Pasted image 20260512131756.png",
     "images/Pasted image 20260512134023.png",
-    "images/Pasted image 20260512134017.png",
-    "images/Pasted image 20260512133855.png",
-    "images/Pasted image 20260512133753.png",
-    "images/Pasted image 20260512133545.png",
-    "images/Pasted image 20260512133526.png",
-    "images/Pasted image 20260512133520.png",
-    "images/Pasted image 20260512133511.png",
-    "images/Pasted image 20260512133506.png",
     "NTFS.md",
     "Untitled.md",
     "File Systems.md",
     "RDP.md",
-    "Git.md",
     "hydra.md",
     "DNS Lookup tools.md",
     "DNS.md",
     "DNS Records.md",
-    "grep.md",
     "MX.md",
     "Port.md",
     "images",
@@ -275,12 +280,6 @@
     "tcpdump.md",
     "Ping.md",
     "DNSDumpster.md",
-    "Telnet.md",
-    "msfvenom.md",
-    "Metasploit.md",
-    "A.md",
-    "Traceroute.md",
-    "dig.md",
     "DNS Lookup",
     "DNS Records",
     "Untitled.base"

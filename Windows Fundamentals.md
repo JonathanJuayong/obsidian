@@ -84,3 +84,95 @@ Windows uses a page file as an extra virtual memory space when the physical RAM 
 ![[Pasted image 20260512134017.png]]
 ![[Pasted image 20260512134023.png]]
 
+## Change UAC Settings
+
+![[Pasted image 20260513184353.png]] 
+
+- **Always notify:** This is the highest security. Windows notifies you whenever any apps or you yourself try to make changes, and the desktop dims (Secure Desktop). 
+- **Notify for apps**: Windows notifies only when _apps_ try to make changes, but not when you change Windows settings. This option is enabled by default.
+- **Notify without dimming:** Same as above (Notify for apps), but this time the screen does not dim. 
+- **Never notify:** Notifications are turned off. Windows won’t warn you about any changes made by you or any apps.
+
+## Computer Management
+
+`compmgmt` utility has three primary sections: System Tools, Storage, and Services and Applications.
+
+### System Tools
+- Task Scheduler - create and manage common tasks that our computer will carry out automatically at the times we specify
+- Event Viewer - allows us to view events that have occurred on the computer
+  ![[Pasted image 20260513184738.png]]
+- ![[Pasted image 20260513184743.png]]
+- Shared Folders - where you will see a complete list of shares and folders shared that others can connect to
+- Local Users and Groups - `lusrmgr.msc`
+- Performance - `perfmon`
+- Device Manager - allows us to view and configure the hardware, such as disabling any hardware attached to the computer.
+### Storage
+- Windows Server Backup
+- Disk Management
+### Services and Applications
+- Routing and Remote Access
+- Services
+- WMI Control - controls the **Windows Management Instrumentation** service which allows scripting languages (such as VBScript or Windows Powershell) to manage Microsoft Windows personal computers and servers, both locally and remotely. Microsoft also provides a command-line interface to WMI called Windows Management Instrumentation Command-line (WMIC)
+
+## System Information
+System information or `msinfo32`gathers information about your computer and displays a comprehensive view of your hardware, system components, and software environment, which you can use to diagnose computer issues.
+
+There are 3 sections:
+- Hardware Resources
+- Components
+- Software Environment
+	- Environment Variables
+
+## Resource Monitor
+Resource Monitor or `resmon` displays per-process and aggregate , memory, disk, and network usage information, in addition to providing details about which processes are using individual file handles and modules. Advanced filtering allows users to isolate the data related to one or more processes (either applications or services), start, stop, pause, and resume services, and close unresponsive applications from the user interface. It also includes a process analysis feature that can help identify deadlocked processes and file locking conflicts so that the user can attempt to resolve the conflict instead of closing an application and potentially losing data.
+
+There are 4 sections:
+- CPU
+- Disk
+- Network
+- Memory
+
+## Command Prompt
+Command Prompt or `cmd`
+
+[[command prompt |List of common command prompt commands]]
+
+## Registry Editor
+
+Registry editor or `regedit` is a central hierarchical database used to store information necessary to configure the system for one or more users, applications, and hardware devices.
+
+# Windows Update
+
+Windows Update is a service provided by Microsoft to provide security updates, feature enhancements, and patches for the Windows operating system and other Microsoft products, such as Microsoft Defender.
+
+Updates are typically released on the 2nd Tuesday of each month. This day is called **Patch Tuesday**.
+
+To access Windows Update, run `control /name Microsoft.WindowsUpdate` in command prompt. It can also be accessed in the Settings menu
+![[Pasted image 20260513194430.png]]
+
+# Windows Security
+
+![[Pasted image 20260513194554.png]]
+
+Protection Areas:
+- Virus and threat protection
+	- Current threats
+	- Virus and threat protection settings
+- Firewall and network protection
+	- **Domain** - _The domain profile applies to networks where the host system can authenticate to a domain controller._ 
+	- **Private** - _The private profile is a user-assigned profile and is used to designate private or home networks._
+	- **Public** - _The default profile is the public profile, used to designate public networks such as Wi-Fi hotspots at coffee shops, airports, and other locations._
+- App and browser control
+- Device Security
+
+# Volume Shadow Copy Service
+Shadow Copy is a snapshot or point-in-time copy of the data
+
+If VSS is enabled (**System Protection** turned on), you can perform the following tasks from within **advanced system settings**:
+- **Create a restore point**
+- **Perform system restore**
+- **Configure restore settings**
+- **Delete restore points**
+
+![[Pasted image 20260513195702.png]]
+![[Pasted image 20260513195706.png]]
