@@ -194,4 +194,65 @@ Log deletion helps to:
 - [[logrotate]] - automates log file rotation, compression, and management
 - [[Splunk]] - Log Analysis
 - [[Elastic Search]] - Log Analysis
-- 
+
+# Common Log File Locations
+
+- **Web Servers:**
+    - **Nginx:**
+        - Access Logs: `/var/log/nginx/access.log`
+        - Error Logs: `/var/log/nginx/error.log`
+    - **Apache:**
+        - Access Logs: `/var/log/apache2/access.log`
+        - Error Logs: `/var/log/apache2/error.log`
+
+- **Databases:**
+    - **MySQL:**
+        - Error Logs: `/var/log/mysql/error.log`
+    - **PostgreSQL:**
+        - Error and Activity Logs: `/var/log/postgresql/postgresql-{version}-main.log`
+
+- **Web Applications:**
+    - **PHP:**
+        - Error Logs: `/var/log/php/error.log`
+
+- **Operating Systems:**
+    - **Linux:**
+        - General System Logs: `/var/log/syslog`
+        - Authentication Logs: `/var/log/auth.log`
+
+- **Firewalls and IDS/IPS:**
+    - **iptables:**
+        - Firewall Logs: `/var/log/iptables.log`
+    - **Snort:**
+        - Snort Logs: `/var/log/snort/`
+
+# Common Threat Patterns
+
+## Abnormal user behaviour:
+
+- Multiple failed login attempts
+- Unusual login times
+- Geographic anomalies
+- Frequent password changes
+- Unusual user-agent strings
+- etc.
+
+# Common Attack Signatures
+
+- [[SQL Injection]]
+- [[Cross-site Scripting]]
+- [[Path Traversal]]
+
+# Command Line Tools
+- `cat`
+- `less`
+- `tail` / `head`
+- `wc`
+- `cut`
+- `sort`
+- `uniq`
+- `sed`
+- `awk`
+- `grep`
+
+
