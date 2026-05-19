@@ -243,6 +243,50 @@ Log deletion helps to:
 - [[Cross-site Scripting]]
 - [[Path Traversal]]
 
+# Most Common Windows Log Event IDs To Look For
+
+## **Services:**
+
+- Event ID 4697, A service was installed in the system.
+- Event ID 7045, Created when new services are created on the local Windows machine.
+- Event ID 7034, The service terminated unexpectedly.
+- Event ID 7036, The Windows Firewall/Internet Connection Sharing (ICS) service entered the stopped state or , The Print Spooler service entered the running state.
+- Event ID 7040, The start type of the IPSEC services was chnaged from disabled to auto start.
+
+## **Event Log Manipulation:**
+
+- Event ID 1102, Whenever Windows Security audit log is cleared, event ID 1102 is logged.
+- Event ID 104 , This event is logged when the log file was cleared.
+
+## **Authentication:**
+
+- Event ID 4776, The domain controller attempted to validate the credentials for an account.
+- Event ID 4771,This event is logged on domain controllers only and only failure instances of this event are logged ( Kerberos pre-authentication failed ).
+- Event ID 4768, This event is logged on domain controllers only and both success and failure instances of this event are logged ( A Kerberos authentication ticket TGT ) was requested.
+- Event ID 4769,Windows uses this event ID for both successful and failed service ticket requests ( A Kerberos service ticket was requested ).
+
+**Also Read: [Directory Services Restore Mode Password Reset – Event IDs to Monitor](https://www.socinvestigation.com/directory-services-restore-mode-password-reset-event-ids-to-monitor/)**
+
+## **Sessions:**
+
+- Event ID 4624 ,An account was successfully logged on.
+- Event ID 4625, An account failed to log on.
+- Event ID 4634 + 4647 , User initiated logoff/An account was logged off
+- Event ID 4648, A logon was attempted using explicit credentials
+- Event ID 4672,Special privileges assigned to new logon
+
+## **Account Management:**
+
+- Event ID 4720, A user account was created
+- Event ID 4722, A user account was enabled
+- Event ID 4724, An attempt was made to reset an accounts password
+- Event ID 4728/4732/4756, group membership changes.
+
+## **Network Shares:**
+
+- Event ID 5140,A network share object was accessed
+- Event ID 5145, Network share object was checked to see whether client can be granted desired access.
+
 # Command Line Tools
 - `cat`
 - `less`
